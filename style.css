@@ -1,0 +1,31 @@
+html {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.sounds {
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+
+
+.sound {
+    width: 6.7vw;
+    background-color: grey;
+    margin: 0.3vw 1vh;
+    line-height: 75vh;
+    font-size: 3vh;
+    transition: all .07s ease;
+}
+
+.playing {
+    transform: scale(.9)
+}
+
+footer {
+    text-align: left;
+}
