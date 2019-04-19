@@ -8,16 +8,19 @@ html {
 .sounds {
     display: flex;
     flex-wrap: nowrap;
+    height: 75%;
 
 
 }
 
 
 .sound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 6.7vw;
     background-color: grey;
     margin: 0.3vw 1vh;
-    line-height: 75vh;
     font-size: 3vh;
     transition: all .07s ease;
 }
@@ -28,4 +31,10 @@ html {
 
 footer {
     text-align: left;
+}
+
+@media (orientation: landscape) {
+    body {
+        height: 100vh;
+    }
 }
