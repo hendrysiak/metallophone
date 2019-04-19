@@ -1,6 +1,6 @@
-#MetallophoneApp
+# MetallophoneApp
 
-##Simply music experience
+## Simply music experience
 
 Credits
 Music [https://freesound.org/people/JamieBlam/packs/9008/]
