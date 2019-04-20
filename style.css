@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+
+
 html {
     text-align: center;
     color: white;
@@ -23,10 +31,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 6.7vw;
+    flex: auto;
     background-color: grey;
-    margin: 0.3vw 1vh;
-    font-size: 3vh;
+    margin: 0.3vw 0.5vh;
+    font-size: 2vh;
     transition: all .07s ease;
 }
 
