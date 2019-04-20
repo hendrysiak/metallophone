@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 
-
+}
 
 
 html {
@@ -21,7 +21,7 @@ body {
 .sounds {
     display: flex;
     flex-wrap: nowrap;
-    height: 70%;
+    height: 65%;
 
 
 }
